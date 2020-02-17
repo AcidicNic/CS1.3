@@ -3,11 +3,12 @@ I know I'm not in this class but I literally did everything for CS 1.2 already. 
 
 ## Number bases
 - [x] I did the number bases worksheet on a whiteboard
-- [x] Completed bases.py
-- [x] bases.py passes all tests
+- [x] Completed bases.py & passing all tests
 
 ## Search & Recursion
-- [ ] search.py finished
-- [ ] search.py passes all tests
-- [ ] recursion.py finished
-- [ ] recursion.py passes all tests
+- [x] search.py finished & passing all tests
+- [x] recursion.py & passing all tests
+
+## String Algorithms
+- [x] palindromes.py finished & passing all tests
+- [ ] strings.py finished & passing all tests

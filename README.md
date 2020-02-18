@@ -13,3 +13,11 @@ I know I'm not in this class but I literally did everything for CS 1.2 already. 
 - [x] palindromes.py finished & passing all tests
 - [x] strings.py finished & passing all tests
 - [x] More tests added to strings_test.py (passing those too)
+
+## Linked List
+- [x] linkedlist.py finished & passing all tests
+
+## Lists, Stacks & Queues
+- [ ] stack.py finished & passing all tests
+- [ ] queue.py finished & passing all tests
+

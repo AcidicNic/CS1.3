@@ -18,6 +18,5 @@ I know I'm not in this class but I literally did everything for CS 1.2 already. 
 - [x] linkedlist.py finished & passing all tests
 
 ## Lists, Stacks & Queues
-- [ ] stack.py finished & passing all tests
-- [ ] queue.py finished & passing all tests
-
+- [x] stack.py finished & passing all tests
+- [x] queue.py finished & passing all tests

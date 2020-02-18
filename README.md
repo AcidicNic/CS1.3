@@ -20,3 +20,9 @@ I know I'm not in this class but I literally did everything for CS 1.2 already. 
 ## Lists, Stacks & Queues
 - [x] stack.py finished & passing all tests
 - [x] queue.py finished & passing all tests
+
+## Maps & Hash Tables
+- [x] hashtable.py finished & passing all tests
+
+## Trees & Binary Search Trees
+- [ ] binarytree.py finished & passing all tests

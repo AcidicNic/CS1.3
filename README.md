@@ -30,7 +30,9 @@ I know I'm not in this class but I literally did everything for CS 1.2 already
 
 ## Trees & Binary Search Trees
 - [x] binarytree.py finished & passing all tests
-- [ ] complexity analysis 
+    - [x] completed delete unit tests
+    - [ ] complexity analysis 
+    - [ ] iterative traversal methods 
 
 ## Sets & Circular Buffers
 - [x] Implemented Set data structure in set.py

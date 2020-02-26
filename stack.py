@@ -92,5 +92,5 @@ class ArrayStack(object):
         raise ValueError('Cannot pop, stack is empty.')
 
 
-# Stack = LinkedStack
-Stack = ArrayStack
+Stack = LinkedStack
+# Stack = ArrayStack

@@ -1,5 +1,10 @@
 #!python
 from queue import LinkedQueue
+""" 
+    O(1)constant time
+    O(n) looping
+    O(n^2) nested for loop, exponentially increasing
+"""
 
 
 class BinaryTreeNode(object):
@@ -48,7 +53,6 @@ class BinaryTreeNode(object):
 
 
 class BinarySearchTree(object):
-
     def __init__(self, items=None):
         """Initialize this binary search tree and insert the given items."""
         self.root = None
@@ -110,7 +114,8 @@ class BinarySearchTree(object):
             return None
         # Find the parent node of where the given item should be inserted
         parent = self._find_parent_node_recursive(item, self.root)
-        if parent is not None:
+        # item isn't inserted & self.size isn't updated if it's already in the tree
+        if parent is not None and self._find_node_recursive(item, parent) is None:
             if parent.data > item:
                 parent.left = BinaryTreeNode(item)
             elif parent.data < item:
@@ -368,6 +373,10 @@ def test_binary_search_tree():
         tree.insert(item)
         print('insert({}), size: {}'.format(item, tree.size))
     print('root: {}'.format(tree.root))
+
+    tree.insert(12)
+    print(f'insert(12), size: {tree.size}')
+
 
     # print(f"\nDeleting Items:")
     # print(f'tree: {tree}')

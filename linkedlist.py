@@ -32,6 +32,13 @@ class LinkedList(object):
         """Return a string representation of this linked list."""
         return 'LinkedList({!r})'.format(self.items())
 
+    def __iter__(self):
+        """LinkedList object is iterable!"""
+        node = self.head
+        while node is not None:
+            yield node
+            node = node.next
+
     def items(self):
         """Return a list of all items in this linked list.
         Best and worst case running time: Theta(n) for n items in the list

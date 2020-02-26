@@ -1,8 +1,9 @@
 # CS 1.3 Assignments!
-I know I'm not in this class but I literally did everything for CS 1.2 already. I helped my friend with an assignment for this class and it looked fun. So I'm just gonna do all the work in a desperate attempt to skip CS 1.3 next term so I'm not one class behind. :') pls. I'll even take the quizzes if I get the chance to. :')
+I know I'm not in this class but I literally did everything for CS 1.2 already
 
+
+---
 ## Number bases
-- [x] I did the number bases worksheet on a whiteboard
 - [x] Completed bases.py & passing all tests
 
 ## Search & Recursion
@@ -12,17 +13,26 @@ I know I'm not in this class but I literally did everything for CS 1.2 already. 
 ## String Algorithms
 - [x] palindromes.py finished & passing all tests
 - [x] strings.py finished & passing all tests
-- [x] More tests added to strings_test.py (passing those too)
+    - [x] More tests added to strings_test.py
 
 ## Linked List
 - [x] linkedlist.py finished & passing all tests
 
 ## Lists, Stacks & Queues
 - [x] stack.py finished & passing all tests
+    - [ ] complexity analysis
 - [x] queue.py finished & passing all tests
+    - [ ] complexity analysis
 
 ## Maps & Hash Tables
 - [x] hashtable.py finished & passing all tests
+- [x] complexity analysis in docstrings
 
 ## Trees & Binary Search Trees
-- [ ] binarytree.py finished & passing all tests
+- [x] binarytree.py finished & passing all tests
+- [ ] complexity analysis 
+
+## Sets & Circular Buffers
+- [ ] Implemented Set data structure in set.py
+    - [ ] Time Conplexity
+- [ ] Implemented CircularBuffer data structure in circularbuffer.py

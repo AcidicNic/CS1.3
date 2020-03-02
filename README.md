@@ -1,8 +1,6 @@
 # CS 1.3 Assignments!
 I know I'm not in this class but I literally did everything for CS 1.2 already
 
-
----
 ## Number bases
 - [x] Completed bases.py & passing all tests
 

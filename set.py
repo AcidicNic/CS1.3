@@ -18,7 +18,7 @@ class Set:
 
     def __str__(self):
         """ Returns a string representation of this Set """
-        return f"{{{', '.join(self.set.keys())}}}"
+        return f"{{{', '.join(map(repr, self.set.keys()))}}}"
 
     def __iter__(self):
         """ Allows you to iterate through this Set """
@@ -27,14 +27,15 @@ class Set:
 
     def contains(self, element):
         """ Returns a boolean indicating whether element is in this Set
-            Time Complexity: O(?)
+            Time Complexity: O(1) avg because the HashTable.contains() iterates through every node
+                             in element's bucket but the load factor is under .75
             Space Complexity: O(?)
             """
         return self.set.contains(element)
 
     def add(self, element):
         """ Adds element to this set
-            Time Complexity: O(?)
+            Time Complexity: O(1) avg bc HashTable.set() is efficient unless the load factor gets too high.
             Space Complexity: O(?)
             """
         self.set.set(element, element)
@@ -42,7 +43,8 @@ class Set:
 
     def remove(self, element):
         """ Remove element from this Set, if present, or else raise KeyError
-            Time Complexity: O(?)
+            Time Complexity: O(1) avg for the HashTable.delete() method.
+                             O(n) if the node is near the end of a long bucket
             Space Complexity: O(?)
             """
         if self.contains(element):
@@ -53,7 +55,7 @@ class Set:
 
     def union(self, other_set):
         """ Returns a new set that is the union of this Set and other_set
-            Time Complexity: O(?)
+            Time Complexity: O(n) loops through each element in self and other_set
             Space Complexity: O(?)
             """
         new_set = Set()
@@ -65,7 +67,7 @@ class Set:
 
     def intersection(self, other_set):
         """ Returns a new set that is the intersection of this Set and other_set
-            Time Complexity: O(?)
+            Time Complexity: O(n) loops through each element in other_set
             Space Complexity: O(?)
             """
         new_set = Set()
@@ -77,7 +79,7 @@ class Set:
 
     def difference(self, other_set):
         """ Returns a new set that is the difference of this Set and other_set
-            Time Complexity: O(?)
+            Time Complexity: O(n) loops through each element in self and other_set
             Space Complexity: O(?)
             """
         new_set = Set()
@@ -89,7 +91,7 @@ class Set:
 
     def is_subset(self, other_set):
         """ Returns a boolean indicating whether other_set is a subset of this Set
-            Time Complexity: O(?)
+            Time Complexity: O(n) loops through each element in other_set
             Space Complexity: O(?)
             """
         for element in other_set:

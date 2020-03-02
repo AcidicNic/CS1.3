@@ -37,10 +37,7 @@ I know I'm not in this class but I literally did everything for CS 1.2 already
 ## Sets & Circular Buffers
 - [x] Implemented Set data structure in set.py
     - [ ] Time Complexity
-    - [ ] Unit Tests
-- [ ] Implemented Set data structure in set.py
-    - [ ] Time Complexity
-    - [ ] Unit Tests
+    - [x] Write Unit Tests
 - [ ] Implemented CircularBuffer data structure in circularbuffer.py
     - [ ] Time Complexity
-    - [ ] Unit Tests
+    - [x] Write Unit Tests

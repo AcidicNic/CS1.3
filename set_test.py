@@ -1,12 +1,17 @@
 from set import Set
 import unittest
 
+
 class SetTest(unittest.TestCase):
     def test_init(self):
         s = Set()
+        assert s.size == 0
+        assert str(s) == '{}'
 
     def test_init_with_list(self):
-        s = Set()
+        s = Set(['0', 0, '1', 1])
+        assert s.size == 4
+        print(s.set)
 
     def test_init_with_list_of_strings(self):
         s = Set()
@@ -21,7 +26,12 @@ class SetTest(unittest.TestCase):
         s = Set()
 
     def test_contains(self):
-        s = Set()
+        s = Set([0, '1'])
+        assert s.contains('1')
+        assert s.contains(0)
+        assert not s.contains('0')
+        assert not s.contains('2')
+        assert not s.contains(1)
 
     def test_add(self):
         s = Set()

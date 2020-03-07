@@ -36,6 +36,12 @@ I know I'm not in this class but I literally did everything for CS 1.2 already
 - [x] Implemented Set data structure in set.py
     - [ ] Time Complexity
     - [x] Write Unit Tests
-- [ ] Implemented CircularBuffer data structure in circularbuffer.py
-    - [ ] Time Complexity
+- [x] Implemented CircularBuffer data structure in circularbuffer.py
+    - [x] Time Complexity
     - [x] Write Unit Tests
+
+## Word Jumble
+- [x] word jumble project
+    - [x] solves first 4 words
+    - [x] answers the entire puzzle
+    - [ ] Create tests

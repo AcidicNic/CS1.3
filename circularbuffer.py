@@ -1,7 +1,3 @@
-""" TODO: Annotate enqueue and dequeue methods with running time complexity analysis
-"""
-
-
 class CircularBuffer:
     def __init__(self, max_size):
         self.max = max_size
@@ -13,7 +9,8 @@ class CircularBuffer:
         self.tail = None
 
     def __str__(self):
-        """ Returns a string representation of this CircularBuffer """
+        """ Returns a string representation of this CircularBuffer
+        Running time: O(n) depends on self.max """
         if self.is_empty():
             return "<-[]<-"
         cb_visual = []
@@ -25,15 +22,18 @@ class CircularBuffer:
         # return f"{self.list}, head: {self.head}, tail: {self.tail}, size = {self.size}"
 
     def is_empty(self):
-        """ Returns boolean indicating whether this circular buffer is empty """
+        """ Returns boolean indicating whether this circular buffer is empty
+        Running time: O(1) """
         return self.size == 0
 
     def is_full(self):
-        """ Returns boolean indicating whether this circular buffer is empty """
+        """ Returns boolean indicating whether this circular buffer is empty
+        Running time: O(1) """
         return self.size == self.max
 
     def enqueue(self, item):
-        """ insert item at the back of the buffer """
+        """ insert item at the back of the buffer
+        Running time: O(1) """
         if self.is_full():
             raise ValueError("Cannot enqueue to a full buffer.")
         else:
@@ -44,13 +44,15 @@ class CircularBuffer:
             self.size += 1
 
     def front(self):
-        """ return the item at the front of the buffer """
+        """ return the item at the front of the buffer
+        Running time: O(1) """
         if not self.is_empty():
             return self.list[self.head]
         raise ValueError("Cannot get front from an empty buffer.")
 
     def dequeue(self):
-        """ remove and return the item at the front of the buffer """
+        """ remove and return the item at the front of the buffer
+        Running time: O(1) """
         if not self.is_empty():
             item = self.list[self.head]
             # list is now empty
@@ -63,7 +65,8 @@ class CircularBuffer:
         raise ValueError("Cannot dequeue an empty buffer.")
 
     def increment_index_up(self, index):
-        """ Helper function, returns the next index after the given index """
+        """ Helper function, returns the next index after the given index
+        Running time: O(1) """
         if index is None or index == self.max-1:
             return 0
         else:

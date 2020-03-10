@@ -114,6 +114,11 @@ class WordJumbleSolver:
 
 
 if __name__ == '__main__':
+    # Two word final answer (answer is radical mathematical!)
+    jumble = WordJumbleSolver(["dcaiic", "lcaecrleit", "cpalaa", "hmtycirh", "tlinmusioa"],
+                              [[0, 2, 3], [1, 2, 5, 7], [0, 3, 5], [1, 3, 5, 7], [2, 4, 5, 6, 7]],
+                              [7, 12])
+    jumble.print_answer()
 
     jumble = WordJumbleSolver(["dcaiic", "lcaecrleit", "cpalaa", "hmtycirh", "tlinmusioa"],
                               [[0, 2, 3], [1, 2, 5, 7], [0, 3, 5], [1, 3, 5, 7], [2, 4, 5, 6, 7]],

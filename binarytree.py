@@ -2,7 +2,7 @@
 from queue import LinkedQueue
 from stack import Stack
 """ 
-    O(1)constant time
+    O(1) constant time
     O(n) looping
     O(n^2) nested for loop, exponentially increasing
 """

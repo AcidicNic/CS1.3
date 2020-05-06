@@ -108,7 +108,13 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    # main()
+    print(get_set(16))
+    b = string.digits + string.ascii_lowercase
+    b = b[0:16]
+    print(b)
+
+
     # num = 123456790
     # base = 36
     # print(f"{num} converted to base {base}: {encode(num, base)}")

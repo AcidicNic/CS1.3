@@ -90,5 +90,5 @@ class ArrayQueue(object):
         raise ValueError('Cannot dequeue empty queue.')
 
 
-# Queue = LinkedQueue
-Queue = ArrayQueue
+Queue = LinkedQueue
+# Queue = ArrayQueue

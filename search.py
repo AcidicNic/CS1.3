@@ -46,9 +46,9 @@ def binary_search_iterative(array, item):
         if array[mid] == item:
             return mid
         elif array[mid] < item:
-            min = mid
+            min = mid + 1
         else:
-            max = mid
+            max = mid - 1
         if mid == prev_mid:
             return None
 

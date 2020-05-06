@@ -18,9 +18,9 @@ I know I'm not in this class but I literally did everything for CS 1.2 already
 
 ## Lists, Stacks & Queues
 - [x] stack.py finished & passing all tests
-    - [ ] complexity analysis
+    - [x] complexity analysis
 - [x] queue.py finished & passing all tests
-    - [ ] complexity analysis
+    - [x] complexity analysis
 
 ## Maps & Hash Tables
 - [x] hashtable.py finished & passing all tests
@@ -29,12 +29,14 @@ I know I'm not in this class but I literally did everything for CS 1.2 already
 ## Trees & Binary Search Trees
 - [x] binarytree.py finished & passing all tests
     - [x] completed delete unit tests
-    - [ ] complexity analysis 
+    - [x] Time Complexity
+    - [ ] Space Complexity
     - [ ] iterative traversal methods 
 
 ## Sets & Circular Buffers
 - [x] Implemented Set data structure in set.py
-    - [ ] Time Complexity
+    - [x] Time Complexity
+    - [ ] Space Complexity
     - [x] Write Unit Tests
 - [x] Implemented CircularBuffer data structure in circularbuffer.py
     - [x] Time Complexity
@@ -44,4 +46,4 @@ I know I'm not in this class but I literally did everything for CS 1.2 already
 - [x] word jumble project
     - [x] solves first 4 words
     - [x] answers the entire puzzle
-    - [ ] Create tests
+
